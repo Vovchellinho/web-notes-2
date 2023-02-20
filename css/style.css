@@ -1,0 +1,97 @@
+.main_container {
+    outline: 2px solid #8c8c8c;
+    border-radius: 1%;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.notes {
+    display: inline-block;
+    margin: 10px;
+    height: 350px;
+    width: 580px;
+}
+
+.note {
+    background-color: #fffbe6;
+    outline: 2px solid #f4efd4;
+    display: inline-block;
+    margin: 5px 10px;
+    height: 60px;
+    width: 560px;
+    cursor: pointer;
+}
+
+.note_text {
+    text-align: justify;
+    display: inline-block;
+    word-break: break-all;
+    width: 555px;
+    margin: 3px;
+    height: 38px;
+}
+
+.note_id {
+    display: none;
+}
+
+.note_date {
+    color: #5d5959;
+    display: inline-block;
+    height: 15px;
+    margin-left: 483px;
+}
+
+.pages {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.pages a {
+    color: #5d5959;
+    float: left;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    margin: 2px 5px;
+    padding: 2px 3px;
+    text-decoration: none;
+    outline: 1px solid #000;
+    border-radius: 25%;
+}
+
+.focus_page {
+    background: #fffbe6;
+}
+
+.field_input {
+    display: inline-block;
+    margin: 5px 10px;
+    height: 200px;
+    width: 580px;
+}
+
+textarea {
+    height: 200px;
+    width: 578px;
+    resize: none;
+}
+
+.buttons {
+    display: inline-block;
+    margin: 5px 10px;
+    width: 580px;
+    height: 30px;
+}
+
+.save_button {
+    display: inline-block;
+    width: auto;
+}
+
+.del_button {
+    display: inline-block;
+    margin-left: 428px;
+    width: auto;
+}
