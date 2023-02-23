@@ -10,4 +10,5 @@ Web notes features:
 In the "setting.php" file, you need to change the database connection parameters.
 
 The "list_notes.sql" file - database file.
+
 ![](web-notes.gif)
